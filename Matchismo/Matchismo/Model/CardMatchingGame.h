@@ -21,6 +21,5 @@
 
 - (void)flipCardAtIndex:(NSUInteger)index;
 - (Card *)cardAtIndex:(NSUInteger)index;
-- (void) reset;
 
 @end

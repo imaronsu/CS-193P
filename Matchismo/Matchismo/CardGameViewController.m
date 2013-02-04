@@ -35,7 +35,7 @@
                  
 - (void) setFlipCount:(int)flipCount{
     _flipCount = flipCount;
-    self.flipsLabel.text = [NSString stringWithFormat:@"Flips: %d", self.flipCount];
+
 }
 
 - (IBAction)flipCard:(UIButton *)sender {
@@ -50,11 +50,9 @@
 }
 
 - (IBAction)redeal:(id)sender {
-    // Bring up a dialog to ask the user
-    
-    // If yes, delete the game and restart the game
-    
-    // If no, close the dialog
+    self.game = nil;
+    self.flipCount = 0;
+    [self updateUI];
 }
 
 - (void)updateUI {
@@ -73,10 +71,11 @@
     
     [self updateResultLabel];
     [self updateScoreLabel];
+    [self updateFlipCardLabel];
 }
 
-- (void) displayMatchedCards: (NSMutableArray *)matchedCards
-                       score: (NSUInteger) point {
+- (void) updateFlipCardLabel{
+    self.flipsLabel.text = [NSString stringWithFormat:@"Flips: %d", self.flipCount];
 }
 
 - (void)updateResultLabel{
