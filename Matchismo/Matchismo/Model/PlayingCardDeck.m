@@ -21,6 +21,7 @@
                 PlayingCard *card = [[PlayingCard alloc] init];
                 card.rank = rank;
                 card.suit = suit;
+                card.backImage = [UIImage imageNamed:@"CardBack"];
                 [self addCard:card atTop:YES];
             }
         }
@@ -28,4 +29,5 @@
     
     return self;
 }
+
 @end

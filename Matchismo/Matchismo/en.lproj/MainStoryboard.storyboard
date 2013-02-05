@@ -20,7 +20,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PJJ-Iu-C3e">
-                                <rect key="frame" x="20" y="20" width="60" height="84"/>
+                                <rect key="frame" x="20" y="78" width="60" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="26"/>
                                 <state key="normal" title="">
@@ -46,7 +46,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0uq-ia-Af0">
-                                <rect key="frame" x="240" y="20" width="60" height="84"/>
+                                <rect key="frame" x="240" y="78" width="60" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="26"/>
                                 <state key="normal" title="">
@@ -58,7 +58,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ROH-Gf-FYu">
-                                <rect key="frame" x="93" y="20" width="60" height="84"/>
+                                <rect key="frame" x="93" y="78" width="60" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="26"/>
                                 <state key="normal" title="">
@@ -70,7 +70,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ie8-Ap-Mcc">
-                                <rect key="frame" x="166" y="20" width="60" height="84"/>
+                                <rect key="frame" x="166" y="78" width="60" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="26"/>
                                 <state key="normal" title="">
@@ -82,7 +82,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3kD-RF-ocZ">
-                                <rect key="frame" x="20" y="111" width="60" height="84"/>
+                                <rect key="frame" x="20" y="155" width="60" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="26"/>
                                 <state key="normal" title="">
@@ -94,7 +94,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="K3j-sr-0x5">
-                                <rect key="frame" x="240" y="111" width="60" height="84"/>
+                                <rect key="frame" x="240" y="155" width="60" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="26"/>
                                 <state key="normal" title="">
@@ -106,7 +106,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ShD-oS-1oG">
-                                <rect key="frame" x="93" y="111" width="60" height="84"/>
+                                <rect key="frame" x="93" y="155" width="60" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="26"/>
                                 <state key="normal" title="">
@@ -118,7 +118,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="neE-Jb-jBt">
-                                <rect key="frame" x="166" y="111" width="60" height="84"/>
+                                <rect key="frame" x="166" y="155" width="60" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="26"/>
                                 <state key="normal" title="">
@@ -130,7 +130,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ts9-tL-T9d">
-                                <rect key="frame" x="20" y="202" width="60" height="84"/>
+                                <rect key="frame" x="20" y="232" width="60" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="26"/>
                                 <state key="normal" title="">
@@ -142,7 +142,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ohy-gb-d5n">
-                                <rect key="frame" x="240" y="202" width="60" height="84"/>
+                                <rect key="frame" x="240" y="232" width="60" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="26"/>
                                 <state key="normal" title="">
@@ -154,7 +154,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JoN-Kd-M6S">
-                                <rect key="frame" x="93" y="202" width="60" height="84"/>
+                                <rect key="frame" x="93" y="232" width="60" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="26"/>
                                 <state key="normal" title="">
@@ -166,7 +166,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Obi-Yv-tJo">
-                                <rect key="frame" x="166" y="202" width="60" height="84"/>
+                                <rect key="frame" x="166" y="232" width="60" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="26"/>
                                 <state key="normal" title="">
@@ -178,7 +178,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5pi-ar-xIv">
-                                <rect key="frame" x="20" y="293" width="60" height="84"/>
+                                <rect key="frame" x="20" y="309" width="60" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="26"/>
                                 <state key="normal" title="">
@@ -190,7 +190,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="G1F-qL-SXN">
-                                <rect key="frame" x="240" y="293" width="60" height="84"/>
+                                <rect key="frame" x="240" y="309" width="60" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="26"/>
                                 <state key="normal" title="">
@@ -202,7 +202,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="N4X-jb-u2T">
-                                <rect key="frame" x="93" y="293" width="60" height="84"/>
+                                <rect key="frame" x="93" y="309" width="60" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="26"/>
                                 <state key="normal" title="">
@@ -214,7 +214,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oFG-y9-Gs2">
-                                <rect key="frame" x="166" y="293" width="60" height="84"/>
+                                <rect key="frame" x="166" y="309" width="60" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="26"/>
                                 <state key="normal" title="">
@@ -240,12 +240,24 @@
                                     <action selector="redeal:" destination="2" eventType="touchUpInside" id="8du-Pg-0vI"/>
                                 </connections>
                             </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="bvw-ic-WP5">
+                                <rect key="frame" x="32" y="12" width="257" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="2-card-match"/>
+                                    <segment title="3-card-match"/>
+                                </segments>
+                                <connections>
+                                    <action selector="switchGamePlayMode:" destination="2" eventType="valueChanged" id="NCB-VB-018"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="dealButton" destination="t4R-K5-406" id="nAW-aB-pm4"/>
                         <outlet property="flipsLabel" destination="F3U-dj-cVm" id="ZJX-6D-Mhg"/>
+                        <outlet property="gamePlayMode" destination="bvw-ic-WP5" id="5my-Zl-wQq"/>
                         <outlet property="resultLabel" destination="RWP-Uq-guG" id="x0N-4M-hWW"/>
                         <outlet property="scoreLabel" destination="oRW-sQ-h9F" id="RrS-ox-gFR"/>
                         <outletCollection property="cardButtons" destination="PJJ-Iu-C3e" id="Ssk-6S-xF2"/>
@@ -269,7 +281,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="315" y="180"/>
+            <point key="canvasLocation" x="80" y="46"/>
         </scene>
     </scenes>
     <classes>
@@ -278,8 +290,10 @@
             <relationships>
                 <relationship kind="action" name="flipCard:" candidateClass="UIButton"/>
                 <relationship kind="action" name="redeal:"/>
+                <relationship kind="action" name="switchGamePlayMode:" candidateClass="UISegmentedControl"/>
                 <relationship kind="outlet" name="dealButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="flipsLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="gamePlayMode" candidateClass="UISegmentedControl"/>
                 <relationship kind="outlet" name="resultLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
                 <relationship kind="outletCollection" name="cardButtons" candidateClass="UIButton"/>

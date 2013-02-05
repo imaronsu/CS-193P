@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		993D9F2516BA08CA007387B9 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 993D9F2416BA08CA007387B9 /* PlayingCardDeck.m */; };
 		993D9F2816BA0A0F007387B9 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 993D9F2616BA0A0F007387B9 /* PlayingCard.m */; };
+		99704A4016C08AFF00EA3544 /* CardBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 99704A3F16C08AFE00EA3544 /* CardBack.png */; };
 		99A0837F16B78E510084344E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A0837E16B78E510084344E /* UIKit.framework */; };
 		99A0838116B78E510084344E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A0838016B78E510084344E /* Foundation.framework */; };
 		99A0838316B78E510084344E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A0838216B78E510084344E /* CoreGraphics.framework */; };
@@ -31,6 +32,7 @@
 		993D9F2416BA08CA007387B9 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
 		993D9F2616BA0A0F007387B9 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
 		993D9F2716BA0A0F007387B9 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Model/PlayingCard.h; sourceTree = "<group>"; };
+		99704A3F16C08AFE00EA3544 /* CardBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CardBack.png; sourceTree = "<group>"; };
 		99A0837B16B78E510084344E /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A0837E16B78E510084344E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		99A0838016B78E510084344E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,6 +122,7 @@
 				99A0838A16B78E510084344E /* main.m */,
 				99A0838C16B78E510084344E /* Matchismo-Prefix.pch */,
 				99A0839016B78E510084344E /* Default.png */,
+				99704A3F16C08AFE00EA3544 /* CardBack.png */,
 				99A0839216B78E510084344E /* Default@2x.png */,
 				99A0839416B78E510084344E /* Default-568h@2x.png */,
 			);
@@ -202,6 +205,7 @@
 				99A0839316B78E510084344E /* Default@2x.png in Resources */,
 				99A0839516B78E510084344E /* Default-568h@2x.png in Resources */,
 				99A0839816B78E510084344E /* MainStoryboard.storyboard in Resources */,
+				99704A4016C08AFF00EA3544 /* CardBack.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
