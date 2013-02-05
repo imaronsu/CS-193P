@@ -16,6 +16,7 @@
 // state of the card
 @property (nonatomic, getter=isFaceUp) BOOL faceUp;
 @property (nonatomic, getter=isUnplayable) BOOL unplayable;
+@property (strong, nonatomic) UIImage *backImage;
 
 
 // returns 0 if the others do not match the receiver
