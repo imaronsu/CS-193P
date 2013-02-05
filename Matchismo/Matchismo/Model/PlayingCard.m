@@ -9,23 +9,39 @@
 #import "PlayingCard.h"
 
 @implementation PlayingCard
-
+#define SAME_RANK_BONUS 4
+#define SAME_SUIT_BONUS 1
 - (int)match:(NSArray *)otherCards
 {
+    bool match = NO;
+    NSUInteger numCardsWithSameRank = 0;
     int score = 0;
     
-    if ([otherCards count] == 1) {
-        id otherCard = [otherCards lastObject];
+    for (id otherCard in otherCards)
+    {
         if ([otherCard isKindOfClass:[PlayingCard class]]) {
             PlayingCard *otherPlayingCard = (PlayingCard *)otherCard;
             
+            
+            
             if ([otherPlayingCard.suit isEqualToString:self.suit]) {
-                score = 1;
+                match = YES;
             } else if (otherPlayingCard.rank == self.rank) {
-                score = 4;
+                numCardsWithSameRank += 1;
+            }
+            else{
+                match = NO;
+                break;
             }
         }
-
+    }
+    
+    if (match){
+        score += otherCards.count*SAME_SUIT_BONUS;
+    } else{
+        if (numCardsWithSameRank == otherCards.count ){
+            score += numCardsWithSameRank*SAME_RANK_BONUS;
+        }
     }
     
     return score;
