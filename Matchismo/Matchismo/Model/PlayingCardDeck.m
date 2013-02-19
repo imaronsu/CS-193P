@@ -21,7 +21,9 @@
                 PlayingCard *card = [[PlayingCard alloc] init];
                 card.rank = rank;
                 card.suit = suit;
-                card.backImage = [UIImage imageNamed:@"CardBack"];
+                NSString *frontImageName = [NSString stringWithFormat:@"%@%d", card.suit, card.rank];
+                card.backImage = [UIImage imageNamed:@"card-back"];
+                card.frontImage = [UIImage imageNamed:frontImageName];
                 [self addCard:card atTop:YES];
             }
         }

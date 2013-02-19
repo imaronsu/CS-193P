@@ -21,28 +21,17 @@
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 @property (weak, nonatomic) IBOutlet UILabel *resultLabel;
 @property (weak, nonatomic) IBOutlet UIButton *dealButton;
-@property (weak, nonatomic) IBOutlet UISegmentedControl *gamePlayMode;
 @end
 
 @implementation CardGameViewController
 - (CardMatchingGame *)game {
     if (!_game) {
+        
+        
         _game = [[CardMatchingGame alloc] initWithCardCount:[self.cardButtons count]
-                                                  usingDeck:[[PlayingCardDeck alloc] init]
-                                                gamePlayMode:TWO_CARDS_MATCHING];
+                                                  usingDeck:[[PlayingCardDeck alloc] init]];
     }
     return _game;
-}
-
-
-- (IBAction)switchGamePlayMode:(UISegmentedControl *)sender {
-    if (self.gamePlayMode.selectedSegmentIndex == 0) {
-        _game.playMode = TWO_CARDS_MATCHING;
-    } else if (self.gamePlayMode.selectedSegmentIndex == 1) {
-        _game.playMode = THREE_CARDS_MATCHING;
-    } else {
-        NSLog(@"IN AN UNKNOWN GAME PLAY MODE");
-    }
 }
 
 - (void) setFlipCount:(int)flipCount{
@@ -50,7 +39,6 @@
 }
 
 - (IBAction)flipCard:(UIButton *)sender {
-    self.gamePlayMode.enabled = NO;
     [self.game flipCardAtIndex:[self.cardButtons indexOfObject:sender]];
     self.flipCount++;
     [self updateUI];
@@ -64,7 +52,6 @@
 - (IBAction)redeal:(id)sender {
     self.game = nil;
     self.flipCount = 0;
-    self.gamePlayMode.enabled = YES;
     [self updateUI];
 }
 
@@ -82,7 +69,7 @@
         
         if (card.isFaceUp)
         {
-            [cardButton setImage:nil
+            [cardButton setImage:card.frontImage
                         forState:UIControlStateNormal];
         } else {
             [cardButton setImage:card.backImage

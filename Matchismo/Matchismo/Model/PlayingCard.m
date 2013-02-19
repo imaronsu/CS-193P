@@ -22,8 +22,6 @@
         if ([otherCard isKindOfClass:[PlayingCard class]]) {
             PlayingCard *otherPlayingCard = (PlayingCard *)otherCard;
             
-            
-            
             if ([otherPlayingCard.suit isEqualToString:self.suit]) {
                 match = YES;
             } else if (otherPlayingCard.rank == self.rank) {
