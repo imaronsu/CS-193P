@@ -123,23 +123,24 @@
     for (id card in lastFlip.cards) {
         if ([card isKindOfClass:[SetGameCard class]]) {
             [result appendAttributedString:[[self class] attributedStringForCard:(SetGameCard *)card withFontSize: fontSize]];
-
-            [result appendAttributedString:[[NSAttributedString alloc] initWithString:@" "]];
+            if (![card isEqual:[lastFlip.cards lastObject]]){
+                [result appendAttributedString:[[NSAttributedString alloc] initWithString:@"&"]]; 
+            }
         }
     }
     
     if (lastFlip.state == MATCH) {
         [result insertAttributedString:[[NSAttributedString alloc] initWithString:@"Matched "] atIndex:0];
-        [result appendAttributedString:[[NSAttributedString alloc] initWithString: [NSString stringWithFormat:@"for %d points", points]]];
+        [result appendAttributedString:[[NSAttributedString alloc] initWithString: [NSString stringWithFormat:@" for %d points", points]]];
         
     } else if (lastFlip.state == MISMATCH) {
-        [result appendAttributedString:[[NSAttributedString alloc] initWithString: [NSString stringWithFormat:@"don't match, %d points", points]]];
+        [result appendAttributedString:[[NSAttributedString alloc] initWithString: [NSString stringWithFormat:@" don't match, %d points", points]]];
     } else if (lastFlip.state == FLIPPED_UP) {
         [result insertAttributedString:[[NSAttributedString alloc] initWithString:@"Flipped up "] atIndex:0];
-        [result appendAttributedString:[[NSAttributedString alloc] initWithString: [NSString stringWithFormat:@",%d points", points]]];
+        [result appendAttributedString:[[NSAttributedString alloc] initWithString: [NSString stringWithFormat:@" ,%d points", points]]];
     } else if (lastFlip.state == FLIPPED_DOWN) {
         [result insertAttributedString:[[NSAttributedString alloc] initWithString:@"Flipped down "] atIndex:0];
-        [result appendAttributedString:[[NSAttributedString alloc] initWithString: [NSString stringWithFormat:@",%d points", points]]];
+        [result appendAttributedString:[[NSAttributedString alloc] initWithString: [NSString stringWithFormat:@" ,%d points", points]]];
     } else {
         result = nil;
     }
