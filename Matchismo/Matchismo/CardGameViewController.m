@@ -12,87 +12,48 @@
 #import "PlayingCardDeck.h"
 #import "GameTurn.h"
 
-@interface CardGameViewController ()
-
-@property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
-@property (nonatomic) NSInteger flipCount;
-@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cardButtons;
-@property (strong, nonatomic) CardMatchingGame *game;
-@property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
-@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
-@property (weak, nonatomic) IBOutlet UIButton *dealButton;
+@interface CardGameViewController()
 @end
 
+#define NUMBER_OF_CARDS_TO_DEAL 22
 @implementation CardGameViewController
-- (CardMatchingGame *)game {
-    if (!_game) {
-        
-        
-        _game = [[CardMatchingGame alloc] initWithCardCount:[self.cardButtons count]
-                                                  usingDeck:[[PlayingCardDeck alloc] init]];
-    }
-    return _game;
+
+- (Deck *) createDeck {
+    return [[PlayingCardDeck alloc] init];
+}
+- (GamePlayMode)mode {
+    return TWO_CARDS_MATCHING;
 }
 
-- (void) setFlipCount:(int)flipCount{
-    _flipCount = flipCount;
-}
-
-- (IBAction)flipCard:(UIButton *)sender {
-    [self.game flipCardAtIndex:[self.cardButtons indexOfObject:sender]];
-    self.flipCount++;
-    [self updateUI];
-}
-
-- (void)setCardButtons:(NSArray *)cardButtons {
-    _cardButtons = cardButtons;
-    [self updateUI];
-}
-
-- (IBAction)redeal:(id)sender {
-    self.game = nil;
-    self.flipCount = 0;
-    [self updateUI];
-}
-
-- (void)updateUI {
-    for (UIButton *cardButton in self.cardButtons) {
-        Card *card = [self.game cardAtIndex:[self.cardButtons indexOfObject:cardButton]];
+- (void) updateButton: (UIButton *) button
+              forCard: (Card *) card {
+    if ([card isKindOfClass:[PlayingCard class]]) {
+        [button setTitle:card.contents forState:UIControlStateSelected];
+        [button setTitle:card.contents forState:UIControlStateSelected|UIControlStateDisabled];
         
-        [cardButton setTitle:card.contents forState:UIControlStateSelected];
-        [cardButton setTitle:card.contents forState:UIControlStateSelected|UIControlStateDisabled];
+        button.selected = card.isFaceUp;
+        button.enabled = !card.isUnplayable;
         
-        cardButton.selected = card.isFaceUp;
-        cardButton.enabled = !card.isUnplayable;
-        
-        cardButton.alpha = (card.isUnplayable ? 0.3 : 1.0);
+        button.alpha = (card.isUnplayable ? 0.3 : 1.0);
         
         if (card.isFaceUp)
         {
-            [cardButton setImage:card.frontImage
-                        forState:UIControlStateNormal];
+            [button setImage:card.frontImage
+                    forState:UIControlStateNormal];
         } else {
-            [cardButton setImage:card.backImage
-                        forState:UIControlStateNormal];
-
+            [button setImage:card.backImage
+                    forState:UIControlStateNormal];
+            
         }
     }
-    
-    [self updateResultLabel];
-    [self updateScoreLabel];
-    [self updateFlipCountLabel];
 }
 
-- (void) updateFlipCountLabel{
-    self.flipsLabel.text = [NSString stringWithFormat:@"Flips: %d", self.flipCount];
-}
++ (NSAttributedString *) getResultStringWithLastFlip: (GameTurn *)lastFlip
+                                 andPoints: (int)points {
 
-- (void)updateResultLabel{
-    GameTurn* lastFlip = [self.game lastFlip];
-    int points = lastFlip.points;
     NSString* resultStr;
     
-
+    
     Card* card;
     NSString *strToAppend;
     
@@ -100,7 +61,7 @@
     // the first card
     card = lastFlip.cards[0];
     NSString *cardsStr = [NSString stringWithFormat:@"%@", card.contents];
-        
+    
     if ([lastFlip.cards count] > 1){
         
         
@@ -115,11 +76,11 @@
         strToAppend = [NSString stringWithFormat:@" and %@", card.contents];
         cardsStr = [cardsStr stringByAppendingString:strToAppend];
     }
-
-
+    
+    
     if (lastFlip.state == MATCH) {
         resultStr = [NSString stringWithFormat:@"Matched %@ for %d points", cardsStr, points];
-
+        
     } else if (lastFlip.state == MISMATCH) {
         resultStr = [NSString stringWithFormat:@"%@ don't match, %d points", cardsStr, points];
         
@@ -129,14 +90,10 @@
     } else if (lastFlip.state == FLIPPED_DOWN) {
         resultStr = [NSString stringWithFormat:@"Flipped down %@, %d point", cardsStr, points];
     } else {
-        resultStr = nil;
+        resultStr = @"";
     }
     
-    self.resultLabel.text = resultStr;
+    return [[NSAttributedString alloc] initWithString:resultStr];
 }
-
-- (void)updateScoreLabel {
-    self.scoreLabel.text = [NSString stringWithFormat:@"Score: %d", self.game.score];
-}
-
 @end
+

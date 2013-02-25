@@ -28,7 +28,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="IF9-fB-TZH"/>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="30S-AM-YCf"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Score: 0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oRW-sQ-h9F">
@@ -54,7 +54,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="iW2-ky-pbu"/>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="Uo4-Qk-Khu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ROH-Gf-FYu">
@@ -66,7 +66,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="sw8-Ww-gO9"/>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="0uX-ob-XNH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ie8-Ap-Mcc">
@@ -78,7 +78,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="9o7-QJ-BCP"/>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="oya-y4-uMm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3kD-RF-ocZ">
@@ -90,7 +90,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="MO2-mc-CDW"/>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="xac-kZ-pOC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="K3j-sr-0x5">
@@ -102,7 +102,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="fAh-6E-fkU"/>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="luq-wt-Mpc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ShD-oS-1oG">
@@ -114,7 +114,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="x10-N1-XsX"/>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="DFs-Vb-EK9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="neE-Jb-jBt">
@@ -126,7 +126,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="jrB-xY-d5t"/>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="W6x-FY-Z8O"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ts9-tL-T9d">
@@ -138,7 +138,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="V9f-be-nT9"/>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="LsQ-kU-CCc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ohy-gb-d5n">
@@ -150,7 +150,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="FWW-xd-zos"/>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="Kbx-4V-Vod"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JoN-Kd-M6S">
@@ -162,7 +162,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="73a-Kz-MY9"/>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="lU1-E9-kyq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Obi-Yv-tJo">
@@ -174,7 +174,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="2ui-b2-Oov"/>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="ehV-NR-f7H"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5pi-ar-xIv">
@@ -186,7 +186,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="IkE-22-Zdb"/>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="GeM-KO-0Tz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="G1F-qL-SXN">
@@ -198,7 +198,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="hjI-Rv-de4"/>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="xxt-GY-tSN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="N4X-jb-u2T">
@@ -210,7 +210,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="vo0-On-jGC"/>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="ayh-lR-Kol"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oFG-y9-Gs2">
@@ -222,7 +222,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="RFL-rY-CFl"/>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="tQv-kq-sgz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="t4R-K5-406">
@@ -237,7 +237,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="redeal:" destination="2" eventType="touchUpInside" id="8du-Pg-0vI"/>
+                                    <action selector="redeal:" destination="2" eventType="touchUpInside" id="WdH-Cc-FED"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -245,27 +245,26 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Match" image="PlayingCardGameIcon.png" id="EuV-dG-E37"/>
                     <connections>
-                        <outlet property="dealButton" destination="t4R-K5-406" id="nAW-aB-pm4"/>
-                        <outlet property="flipsLabel" destination="F3U-dj-cVm" id="ZJX-6D-Mhg"/>
-                        <outlet property="resultLabel" destination="RWP-Uq-guG" id="x0N-4M-hWW"/>
-                        <outlet property="scoreLabel" destination="oRW-sQ-h9F" id="RrS-ox-gFR"/>
-                        <outletCollection property="cardButtons" destination="PJJ-Iu-C3e" id="Ssk-6S-xF2"/>
-                        <outletCollection property="cardButtons" destination="PJJ-Iu-C3e" id="ASf-dv-Oqi"/>
-                        <outletCollection property="cardButtons" destination="ROH-Gf-FYu" id="015-ks-aLG"/>
-                        <outletCollection property="cardButtons" destination="Ie8-Ap-Mcc" id="lCS-ts-KiD"/>
-                        <outletCollection property="cardButtons" destination="0uq-ia-Af0" id="CtK-kj-51H"/>
-                        <outletCollection property="cardButtons" destination="3kD-RF-ocZ" id="Nph-CW-0CO"/>
-                        <outletCollection property="cardButtons" destination="ShD-oS-1oG" id="SUv-he-XBJ"/>
-                        <outletCollection property="cardButtons" destination="neE-Jb-jBt" id="fUS-il-E7U"/>
-                        <outletCollection property="cardButtons" destination="K3j-sr-0x5" id="pkp-M7-pjg"/>
-                        <outletCollection property="cardButtons" destination="Ts9-tL-T9d" id="2uR-ha-HiG"/>
-                        <outletCollection property="cardButtons" destination="JoN-Kd-M6S" id="d0n-28-mUD"/>
-                        <outletCollection property="cardButtons" destination="Obi-Yv-tJo" id="a0V-Wa-IBg"/>
-                        <outletCollection property="cardButtons" destination="ohy-gb-d5n" id="KCw-Yx-e3S"/>
-                        <outletCollection property="cardButtons" destination="5pi-ar-xIv" id="KjL-dV-CKT"/>
-                        <outletCollection property="cardButtons" destination="N4X-jb-u2T" id="Zwr-8S-S8U"/>
-                        <outletCollection property="cardButtons" destination="oFG-y9-Gs2" id="Rhn-3O-ABj"/>
-                        <outletCollection property="cardButtons" destination="G1F-qL-SXN" id="u1w-IX-x59"/>
+                        <outlet property="dealButton" destination="t4R-K5-406" id="dj7-zD-G1P"/>
+                        <outlet property="flipsLabel" destination="F3U-dj-cVm" id="Bvp-1t-oe3"/>
+                        <outlet property="resultLabel" destination="RWP-Uq-guG" id="9v5-5f-bg5"/>
+                        <outlet property="scoreLabel" destination="oRW-sQ-h9F" id="qzb-Nc-BAC"/>
+                        <outletCollection property="cardButtons" destination="PJJ-Iu-C3e" id="6yK-1M-N3U"/>
+                        <outletCollection property="cardButtons" destination="ROH-Gf-FYu" id="2NJ-jx-0Q0"/>
+                        <outletCollection property="cardButtons" destination="Ie8-Ap-Mcc" id="dCP-59-c1Q"/>
+                        <outletCollection property="cardButtons" destination="0uq-ia-Af0" id="lrG-cx-5dU"/>
+                        <outletCollection property="cardButtons" destination="3kD-RF-ocZ" id="upH-vf-AyX"/>
+                        <outletCollection property="cardButtons" destination="ShD-oS-1oG" id="n5X-tB-38f"/>
+                        <outletCollection property="cardButtons" destination="neE-Jb-jBt" id="lhT-vd-cMh"/>
+                        <outletCollection property="cardButtons" destination="K3j-sr-0x5" id="SZ5-P8-d8F"/>
+                        <outletCollection property="cardButtons" destination="Ts9-tL-T9d" id="FXv-FV-5o1"/>
+                        <outletCollection property="cardButtons" destination="JoN-Kd-M6S" id="Iuv-a9-8lv"/>
+                        <outletCollection property="cardButtons" destination="Obi-Yv-tJo" id="vb9-g8-UVW"/>
+                        <outletCollection property="cardButtons" destination="ohy-gb-d5n" id="SML-pN-hFM"/>
+                        <outletCollection property="cardButtons" destination="5pi-ar-xIv" id="VZG-sh-gLA"/>
+                        <outletCollection property="cardButtons" destination="N4X-jb-u2T" id="5K4-wN-NTK"/>
+                        <outletCollection property="cardButtons" destination="oFG-y9-Gs2" id="QgR-F0-ghc"/>
+                        <outletCollection property="cardButtons" destination="G1F-qL-SXN" id="Dqd-GQ-C6w"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
@@ -290,7 +289,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="XvJ-Vm-p9H"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="LYe-ET-q8V"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="nFu-ZO-jpj">
@@ -298,7 +297,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="eHu-du-EEd"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="GHd-SV-b0q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="GfM-hw-znh">
@@ -306,7 +305,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="0JW-hy-aj2"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="K2b-xx-aaH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="eGz-0m-37Z">
@@ -314,7 +313,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="8Mw-BN-TP2"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="9rG-5i-syK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="0u5-ea-7XW">
@@ -322,7 +321,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="94v-DO-Cgf"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="WUT-4F-Flg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="iCy-I9-WzR">
@@ -330,7 +329,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="dHV-oG-3ok"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="NaX-QL-WcI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="ctO-Iw-7Wu">
@@ -338,7 +337,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="6Za-DJ-2EN"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="HRe-7D-xQd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="pl0-LY-1Xl">
@@ -346,7 +345,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="H06-8v-Md9"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="J65-C3-weZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="5oD-1p-Hfh">
@@ -354,7 +353,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="Uim-Ti-HRm"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="b2R-Sf-WkY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="i14-lm-EKE">
@@ -362,7 +361,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="XLk-kj-zrb"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="Ynj-R0-fva"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="NQK-Nd-uSh">
@@ -370,7 +369,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="ws4-Oe-Ox3"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="Mrt-I3-FyZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="lzm-Gv-BJ4">
@@ -378,7 +377,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="LDM-gK-vX3"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="d62-LM-LaJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="xUo-N6-Yeh">
@@ -386,7 +385,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="dc7-3F-PFL"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="piw-Du-JOc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="C6g-et-EJ3">
@@ -394,7 +393,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="96g-qW-GMr"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="Rh6-N8-pcC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="Feg-7b-VXd">
@@ -402,7 +401,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="BXq-nb-1vP"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="oed-03-mbl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="oV6-uy-zvY">
@@ -410,7 +409,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="s2h-Pr-BQ0"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="tDC-5U-HlO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="X9c-3a-0Lf">
@@ -418,7 +417,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="Sa8-pp-06J"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="LFc-bL-Sa0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="c7u-pf-jxj">
@@ -426,7 +425,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="jdh-W0-V2i"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="nK9-rQ-2fs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="4ku-cd-uE5">
@@ -434,7 +433,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="lRr-pF-b4G"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="VoY-MV-BmB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="lOS-sQ-ggr">
@@ -442,7 +441,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="hDK-fj-Eob"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="fYU-18-bDs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="KdX-6t-WiN">
@@ -450,7 +449,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="GNF-Li-e3y"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="J19-CE-dl2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="tgE-Zp-4RY">
@@ -458,7 +457,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="u6U-gB-Aoc"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="5DS-8J-20V"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="qJA-cM-LGF">
@@ -466,7 +465,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="c7f-eu-UxL"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="3TJ-qA-A57"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TOL-Y5-5N8">
@@ -501,7 +500,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="selectCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="4ua-Aq-Htq"/>
+                                    <action selector="flipCard:" destination="6jU-EB-QDK" eventType="touchUpInside" id="RXm-xW-b7g"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Thh-gz-EbI">
@@ -516,8 +515,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="redeal:" destination="2" eventType="touchUpInside" id="sgI-DB-cbt"/>
-                                    <action selector="redeal:" destination="6jU-EB-QDK" eventType="touchUpInside" id="veI-c1-LI5"/>
+                                    <action selector="redeal:" destination="6jU-EB-QDK" eventType="touchUpInside" id="Dyc-1V-glJ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -525,33 +523,34 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Set" image="SetGameIcon.png" id="muu-Dz-60t"/>
                     <connections>
-                        <outlet property="flipLabel" destination="a9N-8O-pc0" id="mLv-hu-Jnj"/>
-                        <outlet property="scoreLabel" destination="0bm-hz-p7M" id="RyG-ZD-shL"/>
-                        <outlet property="statusLabel" destination="TOL-Y5-5N8" id="85Q-aw-YgF"/>
-                        <outletCollection property="cardButtons" destination="QoN-nZ-aL9" id="IbH-xo-ivv"/>
-                        <outletCollection property="cardButtons" destination="aNg-cX-CtF" id="8lf-Le-IkL"/>
-                        <outletCollection property="cardButtons" destination="0u5-ea-7XW" id="17v-yd-H7h"/>
-                        <outletCollection property="cardButtons" destination="qJA-cM-LGF" id="Efq-Pa-GmS"/>
-                        <outletCollection property="cardButtons" destination="nFu-ZO-jpj" id="LaC-M9-d9R"/>
-                        <outletCollection property="cardButtons" destination="pl0-LY-1Xl" id="qJF-na-ZKV"/>
-                        <outletCollection property="cardButtons" destination="xUo-N6-Yeh" id="F3w-FP-1uQ"/>
-                        <outletCollection property="cardButtons" destination="c7u-pf-jxj" id="DDU-q0-5g8"/>
-                        <outletCollection property="cardButtons" destination="GfM-hw-znh" id="mvQ-hH-1cr"/>
-                        <outletCollection property="cardButtons" destination="5oD-1p-Hfh" id="MQY-45-1Mn"/>
-                        <outletCollection property="cardButtons" destination="C6g-et-EJ3" id="OvC-mI-UHI"/>
-                        <outletCollection property="cardButtons" destination="4ku-cd-uE5" id="I3N-tM-nwS"/>
-                        <outletCollection property="cardButtons" destination="ctO-Iw-7Wu" id="Hc2-D1-bqU"/>
-                        <outletCollection property="cardButtons" destination="lzm-Gv-BJ4" id="ZKV-Zo-W7m"/>
-                        <outletCollection property="cardButtons" destination="X9c-3a-0Lf" id="0h8-ei-jHp"/>
-                        <outletCollection property="cardButtons" destination="tgE-Zp-4RY" id="ydA-hB-GjP"/>
-                        <outletCollection property="cardButtons" destination="iCy-I9-WzR" id="7Ly-0r-tiu"/>
-                        <outletCollection property="cardButtons" destination="NQK-Nd-uSh" id="5wh-v0-GoK"/>
-                        <outletCollection property="cardButtons" destination="oV6-uy-zvY" id="Z5H-MG-1T5"/>
-                        <outletCollection property="cardButtons" destination="KdX-6t-WiN" id="wLb-CI-Tus"/>
-                        <outletCollection property="cardButtons" destination="eGz-0m-37Z" id="1BR-Do-9mn"/>
-                        <outletCollection property="cardButtons" destination="i14-lm-EKE" id="08B-xe-7TH"/>
-                        <outletCollection property="cardButtons" destination="Feg-7b-VXd" id="8q3-UB-7wd"/>
-                        <outletCollection property="cardButtons" destination="lOS-sQ-ggr" id="Cqm-41-NsR"/>
+                        <outlet property="dealButton" destination="Thh-gz-EbI" id="UPe-Af-xuj"/>
+                        <outlet property="flipsLabel" destination="a9N-8O-pc0" id="jBn-A8-cKI"/>
+                        <outlet property="resultLabel" destination="TOL-Y5-5N8" id="Gvt-DM-HpA"/>
+                        <outlet property="scoreLabel" destination="0bm-hz-p7M" id="Idk-dU-A6D"/>
+                        <outletCollection property="cardButtons" destination="QoN-nZ-aL9" id="R9M-lN-oPL"/>
+                        <outletCollection property="cardButtons" destination="aNg-cX-CtF" id="4JO-gj-KE0"/>
+                        <outletCollection property="cardButtons" destination="0u5-ea-7XW" id="bi4-6V-jp1"/>
+                        <outletCollection property="cardButtons" destination="qJA-cM-LGF" id="Vxy-pB-AqT"/>
+                        <outletCollection property="cardButtons" destination="nFu-ZO-jpj" id="AjM-Mn-9aC"/>
+                        <outletCollection property="cardButtons" destination="pl0-LY-1Xl" id="V3O-wR-ded"/>
+                        <outletCollection property="cardButtons" destination="xUo-N6-Yeh" id="DE2-cL-PXm"/>
+                        <outletCollection property="cardButtons" destination="c7u-pf-jxj" id="K1J-9M-v7M"/>
+                        <outletCollection property="cardButtons" destination="GfM-hw-znh" id="EdQ-jT-iVD"/>
+                        <outletCollection property="cardButtons" destination="5oD-1p-Hfh" id="X63-eY-pzH"/>
+                        <outletCollection property="cardButtons" destination="C6g-et-EJ3" id="dvb-vn-e6s"/>
+                        <outletCollection property="cardButtons" destination="4ku-cd-uE5" id="BmJ-TS-8d9"/>
+                        <outletCollection property="cardButtons" destination="ctO-Iw-7Wu" id="4wG-MO-HId"/>
+                        <outletCollection property="cardButtons" destination="lzm-Gv-BJ4" id="RhZ-C2-vaF"/>
+                        <outletCollection property="cardButtons" destination="X9c-3a-0Lf" id="uZL-16-2gj"/>
+                        <outletCollection property="cardButtons" destination="tgE-Zp-4RY" id="W4m-25-MbR"/>
+                        <outletCollection property="cardButtons" destination="iCy-I9-WzR" id="LZB-2T-qgP"/>
+                        <outletCollection property="cardButtons" destination="NQK-Nd-uSh" id="jgJ-nY-jZz"/>
+                        <outletCollection property="cardButtons" destination="oV6-uy-zvY" id="cmt-HH-F8u"/>
+                        <outletCollection property="cardButtons" destination="KdX-6t-WiN" id="bdz-XB-ido"/>
+                        <outletCollection property="cardButtons" destination="eGz-0m-37Z" id="c86-Vd-KyG"/>
+                        <outletCollection property="cardButtons" destination="i14-lm-EKE" id="RgU-eu-S8D"/>
+                        <outletCollection property="cardButtons" destination="Feg-7b-VXd" id="fY4-kI-Mf7"/>
+                        <outletCollection property="cardButtons" destination="lOS-sQ-ggr" id="wuK-Ba-r75"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xEJ-Ja-V3B" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -569,8 +568,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="2" kind="relationship" relationship="viewControllers" id="IjF-0o-Ofn"/>
-                        <segue destination="6jU-EB-QDK" kind="relationship" relationship="viewControllers" id="bjr-j4-xoO"/>
+                        <segue destination="2" kind="relationship" relationship="viewControllers" id="WoH-ra-kyL"/>
+                        <segue destination="6jU-EB-QDK" kind="relationship" relationship="viewControllers" id="24m-A1-c3J"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cPP-k6-c0H" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -583,8 +582,11 @@
         <image name="SetGameIcon.png" width="30" height="30"/>
     </resources>
     <classes>
-        <class className="CardGameViewController" superclassName="UIViewController">
+        <class className="CardGameViewController" superclassName="CardMatchingGameViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CardGameViewController.h"/>
+        </class>
+        <class className="CardMatchingGameViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CardMatchingGameViewController.h"/>
             <relationships>
                 <relationship kind="action" name="flipCard:" candidateClass="UIButton"/>
                 <relationship kind="action" name="redeal:"/>
@@ -595,16 +597,8 @@
                 <relationship kind="outletCollection" name="cardButtons" candidateClass="UIButton"/>
             </relationships>
         </class>
-        <class className="SetGameViewController" superclassName="UIViewController">
+        <class className="SetGameViewController" superclassName="CardMatchingGameViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SetGameViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="redeal:"/>
-                <relationship kind="action" name="selectCard:" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="flipLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="statusLabel" candidateClass="UILabel"/>
-                <relationship kind="outletCollection" name="cardButtons" candidateClass="UIButton"/>
-            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

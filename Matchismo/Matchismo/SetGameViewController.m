@@ -12,119 +12,70 @@
 
 #import <QuartzCore/QuartzCore.h>
 
-@interface SetGameViewController ()
-@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cardButtons;
-@property (weak, nonatomic) IBOutlet UILabel *flipLabel;
-@property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
-@property (weak, nonatomic) IBOutlet UILabel *statusLabel;
-@property (strong, nonatomic) CardMatchingGame *game;
-@property (nonatomic) NSUInteger flipCount;
-
-@end
+#define NUMBER_OF_CARDS_TO_DEAL 16
 
 @implementation SetGameViewController
 
-- (CardMatchingGame *)game {
-    if (!_game) {
-        _game = [[CardMatchingGame alloc] initWithCardCount:[self.cardButtons count]
-                                                  usingDeck:[[SetGameCardDeck alloc] init]
-                                               gamePlayMode:THREE_CARDS_MATCHING];
-    }
-    return _game;
+- (Deck *) createDeck {
+    return [[SetGameCardDeck alloc] init];
 }
 
-- (IBAction)selectCard:(UIButton *)sender {
-    // Adding outline to the button
-    // Set the card as flip up
-    // change the color of the card
-
-    [self.game flipCardAtIndex:[self.cardButtons indexOfObject:sender]];
-    self.flipCount++;
-    [self updateUI];
+- (GamePlayMode)mode {
+    return THREE_CARDS_MATCHING;
 }
 
 /**
  * Update the UI for the button
  **/
 - (void) updateButton: (UIButton *) button
-              forCard: (SetGameCard *) card {
-
-    [button setTitle:[[NSNumber numberWithInt:[self.cardButtons indexOfObject:button]]description]
-            forState:UIControlStateSelected];
-    [button setTitle:[[NSNumber numberWithInt:[self.cardButtons indexOfObject:button]]description]
-            forState:UIControlStateSelected|UIControlStateDisabled];
-    [button setTitle:[[NSNumber numberWithInt:[self.cardButtons indexOfObject:button]]description]
-            forState:UIControlStateNormal ];
-    [button setAttributedTitle:[[self class] attributedStringForCard:card withFontSize:button.titleLabel.font.pointSize]
-                      forState:UIControlStateSelected];
-    [button setAttributedTitle:[[self class] attributedStringForCard:card withFontSize:button.titleLabel.font.pointSize]
-                      forState:UIControlStateSelected|UIControlStateDisabled];
-    [button setAttributedTitle:[[self class] attributedStringForCard:card withFontSize:button.titleLabel.font.pointSize]
-                      forState:UIControlStateNormal];
+              forCard: (Card *) card {
     
-    button.selected = card.isFaceUp;
-    button.enabled = !card.isUnplayable;
-    [[button layer] setCornerRadius:8.0f];
-    
-    if (card.isUnplayable) {
-        [[button layer] setBorderWidth:0.0f];
-        [[button layer] setBorderColor:[UIColor blackColor].CGColor];
-        button.alpha = 0.3;
-    }
-    else
-    {
-        button.alpha = 1.0;
-    }
-    
-    if (button.selected) {
-        [[button layer] setBorderWidth:2.0f];
-        [[button layer] setBorderColor:[UIColor blueColor].CGColor];
+    if ([card isKindOfClass:[SetGameCard class]]) {
+        [button setAttributedTitle:[[self class] attributedStringForCard:(SetGameCard *)card withFontSize:button.titleLabel.font.pointSize]
+                          forState:UIControlStateSelected];
+        [button setAttributedTitle:[[self class] attributedStringForCard:(SetGameCard *)card withFontSize:button.titleLabel.font.pointSize]
+                          forState:UIControlStateSelected|UIControlStateDisabled];
+        [button setAttributedTitle:[[self class] attributedStringForCard:(SetGameCard *)card withFontSize:button.titleLabel.font.pointSize]
+                          forState:UIControlStateNormal];
+        
+        button.selected = card.isFaceUp;
+        button.enabled = !card.isUnplayable;
         [[button layer] setCornerRadius:8.0f];
-    } else {
-        [[button layer] setBorderWidth:0.0f];
-        [[button layer] setBorderColor:[UIColor blackColor].CGColor];
-    }
-}
-- (IBAction)redeal:(id)sender {
-    self.game = nil;
-    self.flipCount = 0;
-    [self updateUI];
-}
-
-- (void)setCardButtons:(NSArray *)cardButtons {
-    _cardButtons = cardButtons;
-    [self updateUI];
-}
-
-- (void)updateUI {
-    for (UIButton *cardButton in self.cardButtons) {
-        Card *card = [self.game cardAtIndex:[self.cardButtons indexOfObject:cardButton]];
-        if ([card isKindOfClass:[SetGameCard class]]) {
-            [self updateButton:cardButton forCard:(SetGameCard *)card];
+        
+        if (card.isUnplayable) {
+            [[button layer] setBorderWidth:0.0f];
+            [[button layer] setBorderColor:[UIColor blackColor].CGColor];
+            button.alpha = 0.3;
         }
-
+        else
+        {
+            button.alpha = 1.0;
+        }
+        
+        if (button.selected) {
+            [[button layer] setBorderWidth:2.0f];
+            [[button layer] setBorderColor:[UIColor blueColor].CGColor];
+            [[button layer] setCornerRadius:8.0f];
+        } else {
+            [[button layer] setBorderWidth:0.0f];
+            [[button layer] setBorderColor:[UIColor blackColor].CGColor];
+        }
     }
-    
-    [self updateStatusLabel];
-    [self updateScoreLabel];
-    [self updateFlipCountLabel];
 }
 
-- (void) updateFlipCountLabel{
-    self.flipLabel.text = [NSString stringWithFormat:@"Flips: %d", self.flipCount];
-}
+#pragma mark - Helper Functions
 
-- (void)updateStatusLabel{
-    GameTurn* lastFlip = [self.game lastFlip];
-    int points = lastFlip.points;
+# define RESULT_STRING_FONT_SIZE 12
++ (NSAttributedString *) getResultStringWithLastFlip: (GameTurn *)lastFlip
+                                           andPoints: (int)points {
     NSMutableAttributedString* result = [[NSMutableAttributedString alloc] init];
-    CGFloat fontSize = 12;
+    CGFloat fontSize = RESULT_STRING_FONT_SIZE;
     
     for (id card in lastFlip.cards) {
         if ([card isKindOfClass:[SetGameCard class]]) {
             [result appendAttributedString:[[self class] attributedStringForCard:(SetGameCard *)card withFontSize: fontSize]];
             if (![card isEqual:[lastFlip.cards lastObject]]){
-                [result appendAttributedString:[[NSAttributedString alloc] initWithString:@"&"]]; 
+                [result appendAttributedString:[[NSAttributedString alloc] initWithString:@"&"]];
             }
         }
     }
@@ -142,20 +93,12 @@
         [result insertAttributedString:[[NSAttributedString alloc] initWithString:@"Flipped down "] atIndex:0];
         [result appendAttributedString:[[NSAttributedString alloc] initWithString: [NSString stringWithFormat:@" ,%d points", points]]];
     } else {
-        result = nil;
+        result = [[NSMutableAttributedString alloc] init];
     }
     
-    self.statusLabel.attributedText = result;
-    self.statusLabel.textAlignment = NSTextAlignmentCenter;
+    return result;
 }
 
-- (void)updateScoreLabel {
-    self.scoreLabel.text = [NSString stringWithFormat:@"Score: %d", self.game.score];
-}
-
-///---------------------------------------------------------------------------------------
-/// @name Helper for get attributed string
-///---------------------------------------------------------------------------------------
 
 +(NSAttributedString*) attributedStringForCard:(SetGameCard*)card
                                   withFontSize:(CGFloat) fontSize {
